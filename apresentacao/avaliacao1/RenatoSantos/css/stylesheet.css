@@ -11,7 +11,7 @@ html {
 .wrapper {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: [col1-start] 750px [col2-start] 200px [col3-start] 300px [col3-end];
+    grid-template-columns: flex;
     grid-template-rows: [row1-start] 200px [row2-start] auto [row2-end];
     background-color: #fff;
     color: #444;
